@@ -2,8 +2,10 @@
 #include<conio.h>
 class student
 {
- public:
  int roll;
+ public:
+ student():roll(0)
+ {}
  void input()
  {
   cout<<"\nEnter the roll number:";
@@ -14,3 +16,10 @@ class student
   cout<<"\nroll number="<<roll;
  }
 }; 
+int main()
+{
+student s;
+s.input();
+s.output();
+return 0;
+}
