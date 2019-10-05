@@ -1,6 +1,8 @@
+//this is a program for array within the class and array of objects
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
+using namespace std;
 class student
 {
  char name[25];
@@ -41,7 +43,7 @@ class student
   cout<<"\nPercentage="<<per<<"%";
  }
 int main()
-{clrscr();
+{
  student s[2];
  int n;
   cout<<"\nEnter the number of students:";
