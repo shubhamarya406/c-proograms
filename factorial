@@ -1,15 +1,17 @@
 #include<iostream.h>
+#inclufe<conio.h>
 void fact(int n)
 {
 for(i=1,i<=n;i++)
  res*=i;
  cout<<"Factorial="<<res;
 }
-void main()
+int main()
 {
  int n;
  cout<<"\nEnter any number=";
  cin>>n;
  fact(n);
  getch();
+ return 0;
  }
