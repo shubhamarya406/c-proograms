@@ -1,5 +1,5 @@
 #include<iostream.h>
-#inclufe<conio.h>
+using namespace std;
 void fact(int n)
 {
 for(i=1,i<=n;i++)
@@ -12,6 +12,5 @@ int main()
  cout<<"\nEnter any number=";
  cin>>n;
  fact(n);
- getch();
  return 0;
  }
