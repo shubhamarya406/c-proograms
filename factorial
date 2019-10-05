@@ -1,17 +1,20 @@
 #include<iostream.h>
-#inclufe<conio.h>
+#include<conio.h>
 void fact(int n)
 {
-for(i=1,i<=n;i++)
+int res;
+for(i=1, i<=n, i++)    //loop
+{
  res*=i;
- cout<<"Factorial="<<res;
+ cout<<"Factorial = "<<res;
 }
 int main()
 {
  int n;
- cout<<"\nEnter any number=";
+ cout<<"\nEnter any number: "; 
  cin>>n;
- fact(n);
+ fact(n);      //function call
  getch();
+ 
  return 0;
- }
+}
