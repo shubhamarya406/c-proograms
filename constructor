@@ -21,5 +21,6 @@ int main()
 student s;
 s.input();
 s.output();
+getch();
 return 0;
 }
