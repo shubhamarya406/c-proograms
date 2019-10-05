@@ -1,0 +1,16 @@
+#include<iostream.h>
+#include<conio.h>
+class student
+{
+ public:
+ int roll;
+ void input()
+ {
+  cout<<"\nEnter the roll number:";
+  cin>>roll;
+ }
+ void output()
+ {
+  cout<<"\nroll number="<<roll;
+ }
+}; 
