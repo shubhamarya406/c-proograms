@@ -2,7 +2,7 @@
 using namespace std;
 void fact(int n)
 {
-for(i=1,i<=n;i++)
+for(i=2,i<=n;i++)
  res*=i;
  cout<<"Factorial="<<res;
 }
