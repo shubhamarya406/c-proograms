@@ -3,6 +3,7 @@
 class student
 {
  int roll;
+ static count;
  public:
  student():roll(0)
  {}
@@ -10,10 +11,15 @@ class student
  {
   cout<<"\nEnter the roll number:";
   cin>>roll;
+  countstudent();
  }
  void output()
  {
   cout<<"\nroll number="<<roll;
+ }
+ void countstudent()
+ {
+ count++;
  }
 }; 
 int main()
