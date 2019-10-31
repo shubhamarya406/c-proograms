@@ -3,7 +3,8 @@
 void main()
 {
   using namespace std;
-  int a,b;
+  int a,b,s;
   cin>>a>>b;
-  cout<<a+b;
+  s=a+b;
+  cout<<s;
 }
