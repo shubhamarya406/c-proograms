@@ -5,7 +5,9 @@ class student
  int roll;
  public:
  student():roll(0)
- {}
+ {
+ cout<<"Hullo";
+ }
  void input()
  {
   cout<<"\nEnter the roll number:";
