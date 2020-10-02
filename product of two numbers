@@ -4,12 +4,11 @@
 void main()
 {
     clrscr();
-    float a,b,x=0;
+    float a,b;
     printf("Enter first number: ");
     scanf("%f",&a);
     printf("Enter second number: ");
     scanf("%f",&b);
-    x=a*b;
-    printf("The product of the numbers is: %d",x);
+    printf("The product of the numbers is: %d",a*b);
     getch();
 }
