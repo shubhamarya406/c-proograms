@@ -6,7 +6,9 @@ class student
  static count;
  public:
  student():roll(0)
- {}
+ {
+ cout<<"Hullo";
+ }
  void input()
  {
   cout<<"\nEnter the roll number:";
